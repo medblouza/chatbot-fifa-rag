@@ -1,0 +1,31 @@
+# ========= PYTHON / FASTAPI =========
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+
+# ========= CHROMADB VECTORS =========
+vectors/chroma_db/
+**/chroma_db/
+chroma_db/
+
+# ========= OLLAMA MODELS (optional, huge) =========
+~/.ollama/
+
+
+# ========= SYSTEM FILES =========
+.DS_Store
+Thumbs.db
+
+# ========= LOGS =========
+*.log
+
+# ========= IDE / EDITOR =========
+.vscode/
+.idea/
+
+# ========= JUPYTER NOTEBOOKS =========
+.ipynb_checkpoints/
